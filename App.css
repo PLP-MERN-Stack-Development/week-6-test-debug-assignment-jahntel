@@ -1,0 +1,145 @@
+
+.App {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+.home-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+.bug-form-container, .bug-list-container {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
+
+.bug-form-container form div {
+  margin-bottom: 15px;
+}
+
+.bug-form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.bug-form-container input[type="text"],
+.bug-form-container textarea,
+.bug-form-container select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.bug-form-container textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.bug-form-container button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.bug-form-container button:hover {
+  background-color: #0056b3;
+}
+
+.bug-item {
+  border: 1px solid #d4d4d4;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.bug-item h3 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+.bug-item p {
+  margin-bottom: 5px;
+}
+
+.bug-item button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.bug-item button:first-of-type {
+  background-color: #28a745;
+  color: white;
+}
+
+.bug-item button:first-of-type:hover {
+  background-color: #218838;
+}
+
+.bug-item button:last-of-type {
+  background-color: #dc3545;
+  color: white;
+}
+
+.bug-item button:last-of-type:hover {
+  background-color: #c82333;
+}
+
+.status-open {
+  color: #ffc107;
+  font-weight: bold;
+}
+
+.status-in-progress {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.status-resolved {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.priority-low {
+  color: #28a745;
+}
+
+.priority-medium {
+  color: #ffc107;
+}
+
+.priority-high {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
